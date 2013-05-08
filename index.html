@@ -7,12 +7,17 @@
       if (document.readyState == 'complete') {
         console.log('this is console.dir and the output will not change:')
         console.dir(document.body);
-        console.log('this is console.log and if you refresh, the output will change (in webkit):')
+        console.log('this is console.log and if you refresh, the output will alternate between the console.dir output and the element:')
         console.log(document.body);
       }
     };
   </script>
 </head>
 <body>
+  <ul>
+    <li>use a webkit-based browser</li>
+    <li>open your console (command + option + i)</li>
+    <li>repeatedly refresh the page and watch the output change</li>
+  </ul>
 </body>
 </html>
