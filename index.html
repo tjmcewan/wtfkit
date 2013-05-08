@@ -1,0 +1,18 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script type="text/javascript">
+    document.onreadystatechange = function () {
+      if (document.readyState == 'complete') {
+        console.log('this is console.dir and the output will not change:')
+        console.dir(document.body);
+        console.log('this is console.log and if you refresh, the output will change (in webkit):')
+        console.log(document.body);
+      }
+    };
+  </script>
+</head>
+<body>
+</body>
+</html>
